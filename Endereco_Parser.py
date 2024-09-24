@@ -92,7 +92,12 @@ def formatadora(endereco):
 
 
 if __name__ == "__main__":
+    task = 5
+    while task != 0:
 
-    endereco = input("Digite seu endreço: ")
-    formatadora(endereco)
+        endereco = input("Digite seu endreço: ")
+        formatadora(endereco)
+
+        print("\nDigite Qualquer número para continuar...\nOu Digite 0 para SAIR!\n")
+        task = int(input("Sua escolha ->"))
 
